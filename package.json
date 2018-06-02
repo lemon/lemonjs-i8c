@@ -1,0 +1,10 @@
+{
+  "name": "lemonjs-i8c",
+  "version": "1.2.2",
+  "description": "icons8 cotton icon library for lemon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lemon/lemonjs-i8c"
+  }
+}

@@ -1,0 +1,17 @@
+
+# Component
+module.exports = lemon.Component {
+  package: 'i8'
+  name: 'Minus'
+
+  data: {
+    size: 50
+  }
+
+  template: (data) ->
+    img {
+      width: data.size
+      height: data.size
+      src: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTI4IDEyODsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiNGRkZGRkY7fQoJLnN0MXtmaWxsOiNGNDg4ODQ7fQoJLnN0MntmaWxsOm5vbmU7c3Ryb2tlOiM0NDRCNTQ7c3Ryb2tlLXdpZHRoOjY7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fQoJLnN0M3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjY7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fQo8L3N0eWxlPgo8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSI2NCIgY3k9IjY0IiByPSI0OCIvPgo8Y2lyY2xlIGNsYXNzPSJzdDEiIGN4PSI2NCIgY3k9IjY0IiByPSIzOSIvPgo8Y2lyY2xlIGNsYXNzPSJzdDIiIGN4PSI2NCIgY3k9IjY0IiByPSI0OCIvPgo8bGluZSBjbGFzcz0ic3QzIiB4MT0iNDIiIHkxPSI2NCIgeDI9Ijg2IiB5Mj0iNjQiLz4KPC9zdmc+Cg=="
+    }
+}

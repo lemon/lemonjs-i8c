@@ -1,0 +1,17 @@
+
+# Component
+module.exports = lemon.Component {
+  package: 'i8'
+  name: 'FacebookCircled'
+
+  data: {
+    size: 50
+  }
+
+  template: (data) ->
+    img {
+      width: data.size
+      height: data.size
+      src: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTI4IDEyODsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgoKPGc+Cgk8cGF0aCBkPSJNNzkuNCw2Mi44SDY3LjZWNTVjMC0yLjksMS45LTMuNiwzLjMtMy42YzEuNCwwLDguNCwwLDguNCwwVjM4LjVsLTExLjUsMEM1NC45LDM4LjUsNTIsNDguMSw1Miw1NC4ydjguNmgtOS40CgkJVjc2SDUyYzAsMTcsMCwzNy41LDAsMzcuNWgxNS42YzAsMCwwLTIwLjcsMC0zNy41aDEwLjVMNzkuNCw2Mi44eiIgc3R5bGU9ImZpbGw6IzNGNEE1NDsiLz4KPC9nPgo8Zz4KCTxwYXRoIGQ9Ik02NCwxMTdjLTI5LjIsMC01My0yMy44LTUzLTUzczIzLjgtNTMsNTMtNTNzNTMsMjMuOCw1Myw1M1M5My4yLDExNyw2NCwxMTd6IE02NCwxN2MtMjUuOSwwLTQ3LDIxLjEtNDcsNDcKCQlzMjEuMSw0Nyw0Nyw0N3M0Ny0yMS4xLDQ3LTQ3Uzg5LjksMTcsNjQsMTd6IiBzdHlsZT0iZmlsbDojM0Y0QTU0OyIvPgo8L2c+Cjwvc3ZnPgo="
+    }
+}
